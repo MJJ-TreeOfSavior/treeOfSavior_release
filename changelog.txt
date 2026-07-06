@@ -1,3 +1,7 @@
+v5.6.4更新內容:
+1. 更新 `update_check.lua` 以改用 jsDelivr CDN，降低 GitHub Raw 429 風險。
+2. 保留網路錯誤保護機制，避免雲機上 httpGet/httpDownload 直接崩潰。
+
 v5.6.3更新內容:
 1. 對授權網路驗證新增安全呼叫封裝，避免雲機/無網路時 httpPost 崩潰。
 2. 更新 `update_check.lua` 以安全處理 `httpGet` 和 `httpDownload` 錯誤。
