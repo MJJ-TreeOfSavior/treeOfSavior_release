@@ -1,3 +1,6 @@
+v5.7更新內容:
+1. 加入50等煉金物品 (需使用自定義流程)
+
 v5.6.4更新內容:
 1. 更新 `update_check.lua` 以改用 jsDelivr CDN，降低 GitHub Raw 429 風險。
 2. 保留網路錯誤保護機制，避免雲機上 httpGet/httpDownload 直接崩潰。
